@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from "next/link";
 
 export default function Header({ font }: { font: string }) {
   return (
@@ -13,7 +13,7 @@ export default function Header({ font }: { font: string }) {
           href="/products/upload"
           className="uppercase text-green-951 text-xl py-2 hover:text-yellow-700"
         >
-          Upload {'>'}
+          {"<"} Upload {">"}
         </Link>
       </div>
     </header>
